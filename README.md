@@ -134,18 +134,14 @@ if (currentItems != null)
 ###### Return null can give a nullPointer, it's good to check
 ```java
 @Override
-	public List<myDTO> getMyDTO(String profile, String id, Long	eventId) {
-
-		try {
-
-			return null;
-
-		} catch (Exception ex) {
-			log.error("Exception.Error");
-			throw new Exception(ex.getMessage());
-		}
-
+public List<myDTO> getMyDTO(String profile, String id, Long	eventId) {
+	try {
+		return null;
+	} catch (Exception ex) {
+		log.error("Exception.Error");
+		throw new Exception(ex.getMessage());
 	}
+}
 ```
 
 ###### JSON's coming!
