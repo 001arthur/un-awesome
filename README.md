@@ -164,3 +164,13 @@ public DutyType createDuty(@RequestBody JsonNode newDuty) {
   return dutyType;
 }
 ```
+
+###### HOW TO DEBUG
+```java 
+if (nationalInvoiceDTO.status == StatusNationalInvoice.Paid) {
+	System.out.println();
+}
+
+```
+
+
